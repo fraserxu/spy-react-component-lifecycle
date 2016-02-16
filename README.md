@@ -1,5 +1,7 @@
 # spy-react-component-lifecycle
 
+[![Build Status](https://travis-ci.org/fraserxu/spy-react-component-lifecycle.svg?branch=master)](https://travis-ci.org/fraserxu/spy-react-component-lifecycle)
+
 A separate module for spy react component lifecycle, code from [enzyme](https://github.com/airbnb/enzyme) which is deprecated at v2.0.0
 
 #### Install
