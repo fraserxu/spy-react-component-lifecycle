@@ -1,0 +1,33 @@
+{
+  "name": "spy-react-component-lifecycle",
+  "version": "0.1.0",
+  "description": "spy-react-component-lifecycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/spy-react-component-lifecycle.git"
+  },
+  "keywords": [
+    "react",
+    "testing",
+    "spy"
+  ],
+  "author": "Fraser Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/spy-react-component-lifecycle/issues"
+  },
+  "homepage": "https://github.com/fraserxu/spy-react-component-lifecycle#readme",
+  "devDependencies": {
+    "jsdom": "^8.0.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "sinon": "^1.17.3"
+  }
+}
