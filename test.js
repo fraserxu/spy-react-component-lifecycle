@@ -41,7 +41,7 @@ test('Componenet life cycle', function (assert) {
   withDom()
 
   spyLifeCycle(Foo)
-  var container = window.document.createElement('div')
+  var container = global.window.document.createElement('div')
   ReactDOM.render(React.createElement(Foo), container)
 
   assert.true(Foo.prototype.componentDidMount.calledOnce, 'calls componentDidMount once')
