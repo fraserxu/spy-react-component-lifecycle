@@ -35,5 +35,7 @@ test('Componenet life cycle', function (assert) {
 })
 ```
 
+**Notes:** Sincejsdom 7.x onward only works on Node.js 4 or newer, the test may only work for Node.js 4 or newer.
+
 #### License
 MIT
