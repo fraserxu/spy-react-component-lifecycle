@@ -28,6 +28,9 @@ function onPrototype (Component, lifecycle, method) {
 
 function spyLifeCycle(Component) {
   onPrototype(Component, function(proto, name) {
+    if (proto[name].isSinonProxy) {
+      proto[name].restore()
+    }
     sinon.spy(proto, name)
   })
 }
